@@ -1,0 +1,19 @@
+{
+  "name": "claim-advisor",
+  "version": "1.0.0",
+  "description": "Claim Advisor front end",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cary-gaskell/claim-advisor.git"
+  },
+  "author": "Cary-Lee Gaskell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cary-gaskell/claim-advisor/issues"
+  },
+  "homepage": "https://github.com/cary-gaskell/claim-advisor#readme"
+}
