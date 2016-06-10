@@ -1,2 +1,6 @@
 template
 HTML
+.idea
+node_modules
+npm-debug.log
+dist

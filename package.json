@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/cary-gaskell/claim-advisor/issues"
   },
-  "homepage": "https://github.com/cary-gaskell/claim-advisor#readme"
+  "homepage": "https://github.com/cary-gaskell/claim-advisor#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-replace": "^0.5.4",
+    "gulp-util": "^3.0.7",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.1"
+  }
 }
