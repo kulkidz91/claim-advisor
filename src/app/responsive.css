@@ -608,7 +608,7 @@
 		top: 0;
 		left: auto;
 		right: 15px;
-		margin: 40px 0;
+    margin: -4px 0;
 		-webkit-transition: margin .4s ease;
 		-o-transition: margin .4s ease;
 		transition: margin .4s ease;
