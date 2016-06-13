@@ -33,6 +33,9 @@ padding:0!important;
   right: 0;
 }
 
+.no-margin {
+  margin: 0;
+}
 .tc {
   text-align:center;
 }
