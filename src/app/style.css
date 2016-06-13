@@ -7197,8 +7197,8 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box.fbox-light .fbox-icon i,
 .feature-box.fbox-light .fbox-icon img {
-	border: 1px solid #E5E5E5;
-	background-color: #F5F5F5;
+  border: none;
+  background-color: #fff;
 	color: #444;
 }
 
