@@ -12,3 +12,26 @@
 .thumbnail img.pull-right {
   width: 50px;
 }
+
+.claim-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.claim-hero-title {
+  position: absolute;
+  top: 90px;
+  z-index: 2;
+  left: 0;
+  right: 0;
+}
+.claim-hero-content {
+  position: absolute;
+  top: 200px;
+  z-index: 2;
+  left: 0;
+  right: 0;
+}

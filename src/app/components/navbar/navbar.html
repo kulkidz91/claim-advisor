@@ -1,21 +1,166 @@
-<nav class="navbar navbar-static-top navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="https://github.com/Swiip/generator-gulp-angular">
-        <span class="glyphicon glyphicon-home"></span> Gulp Angular
-      </a>
+<!-- Header
+    ============================================= -->
+<header id="header" class="full-header sticky-header">
+
+  <div id="header-wrap">
+
+    <div class="container clearfix" style="margin-right: 0; margin-left:0; width:100%;">
+
+      <div id="primary-menu-trigger"><i class="ion-navicon"></i></div>
+
+      <!-- Logo ============================================= -->
+      <div id="logo">
+        <h4 style="padding: 17px; margin:0;">Claim Advisor</h4>
+        <!--<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>-->
+        <!--<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>-->
+      </div>
+      <!-- #logo end -->
+
+      <!-- Primary Navigation ============================================= -->
+      <nav id="primary-menu">
+
+        <ul>
+          <li ui-sref-active="current" ><a ui-sref="home"><div>Protect your claim</div></a></li>
+          <li class="mega-menu" ui-sref-active="current"><a ui-sref="pricing"><div>Pricing</div></a></li>
+          <li class="mega-menu"><a href="#"><div>Submit a claim</div></a>
+            <div class="mega-menu-content style-2 clearfix">
+              <ul class="mega-menu-column col-md-3">
+                <li class="mega-menu-title"><a href="#"><div>Introduction</div></a>
+                  <ul>
+                    <li><a href="about.html"><div>About Us</div></a></li>
+                    <li><a href="about-2.html"><div>About Us - Layout 2</div></a></li>
+                    <li><a href="about-me.html"><div>About Me</div></a></li>
+                    <li><a href="team.html"><div>Team Members</div></a></li>
+                    <li><a href="jobs.html"><div>Careers</div></a></li>
+                    <li><a href="side-navigation.html"><div>Side Navigation</div></a></li>
+                    <li><a href="page-submenu.html"><div>Page Submenu</div></a></li>
+                    <li><a href="sitemap.html"><div>Sitemap</div></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="mega-menu-column col-md-3">
+                <li class="mega-menu-title"><a href="#"><div>Utility</div></a>
+                  <ul>
+                    <li><a href="services.html"><div>Services - Layout 1</div></a></li>
+                    <li><a href="services-2.html"><div>Services - Layout 2</div></a></li>
+                    <li><a href="services-3.html"><div>Services - Layout 3</div></a></li>
+                    <li><a href="faqs.html"><div>FAQs - Layout 1</div></a></li>
+                    <li><a href="faqs-2.html"><div>FAQs - Layout 2</div></a></li>
+                    <li><a href="faqs-3.html"><div>FAQs - Layout 3</div></a></li>
+                    <li><a href="faqs-4.html"><div>FAQs - Layout 4</div></a></li>
+                    <li><a href="maintenance.html"><div>Maintenance Page</div></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="mega-menu-column col-md-3">
+                <li class="mega-menu-title"><a href="#"><div>Layout Grids</div></a>
+                  <ul>
+                    <li><a href="full-width.html"><div>Full Width</div></a></li>
+                    <li><a href="full-width-wide.html"><div>Full Width - Wide</div></a></li>
+                    <li><a href="right-sidebar.html"><div>Right Sidebar</div></a></li>
+                    <li><a href="left-sidebar.html"><div>Left Sidebar</div></a></li>
+                    <li><a href="both-sidebar.html"><div>Both Sidebar</div></a></li>
+                    <li><a href="both-right-sidebar.html"><div>Both Right Sidebar</div></a></li>
+                    <li><a href="both-left-sidebar.html"><div>Both Left Sidebar</div></a></li>
+                    <li><a href="blank-page.html"><div>Blank Page</div></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="mega-menu-column col-md-3">
+                <li class="mega-menu-title"><a href="#"><div>Miscellaneous</div></a>
+                  <ul>
+                    <li><a href="login-register.html"><div>Login/Register</div></a></li>
+                    <li><a href="login-register-2.html"><div>Login/Register - Style 2</div></a></li>
+                    <li><a href="login-register-3.html"><div>Login/Register - Style 3</div></a></li>
+                    <li><a href="login-1.html"><div>Login - Style 1</div></a></li>
+                    <li><a href="login-2.html"><div>Login - Style 2</div></a></li>
+                    <li><a href="404.html"><div>404 - Simple Layout</div></a></li>
+                    <li><a href="404-2.html"><div>404 - Parallax Image</div></a></li>
+                    <li><a href="404-3.html"><div>404 - HTML5 Video</div></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="mega-menu"><a href="#"><div>More</div></a>
+            <div class="mega-menu-content style-2 clearfix">
+              <ul class="mega-menu-column col-5">
+                <li class="mega-menu-title"><a href="#"><div>Grids</div></a>
+                  <ul>
+                    <li><a href="portfolio-1.html"><div>1 Column</div></a></li>
+                    <li><a href="portfolio-2.html"><div>2 Columns</div></a></li>
+                    <li><a href="portfolio-3.html"><div>3 Columns</div></a></li>
+                    <li><a href="portfolio.html"><div>4 Columns</div></a></li>
+                    <li><a href="portfolio-5.html"><div>5 Columns</div></a></li>
+                    <li><a href="portfolio-6.html"><div>6 Columns</div></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="mega-menu-column col-5">
+                <li class="mega-menu-title"><a href="#"><div>Masonry</div></a>
+                  <ul>
+                    <li><a href="portfolio-mixed-masonry.html"><div>Mixed Columns</div></a></li>
+                    <li><a href="portfolio-2-masonry.html"><div>2 Columns</div></a></li>
+                    <li><a href="portfolio-3-masonry.html"><div>3 Columns</div></a></li>
+                    <li><a href="portfolio-masonry.html"><div>4 Columns</div></a></li>
+                    <li><a href="portfolio-5-masonry.html"><div>5 Columns</div></a></li>
+                    <li><a href="portfolio-6-masonry.html"><div>6 Columns</div></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="mega-menu-column col-5">
+                <li class="mega-menu-title"><a href="#"><div>Loading Styles</div></a>
+                  <ul>
+                    <li><a href="portfolio.html"><div>jQuery Filter</div></a></li>
+                    <li><a href="portfolio-pagination.html"><div>Pagination</div></a></li>
+                    <li><a href="portfolio-jpagination.html"><div>jQuery Pagination</div></a></li>
+                    <li><a href="portfolio-infinity-scroll.html"><div>Infinity Scroll</div></a></li>
+                    <li><a href="portfolio-ajax.html"><div>AJAX In Page</div></a></li>
+                    <li><a href="portfolio-ajax-in-modal.html"><div>AJAX In Modal</div></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="mega-menu-column col-5">
+                <li class="mega-menu-title"><a href="#"><div>Single Project</div></a>
+                  <ul>
+                    <li><a href="portfolio-single-extended.html"><div>Extended Item</div></a></li>
+                    <li><a href="portfolio-single-fullwidth.html"><div>Parallax Image</div></a></li>
+                    <li><a href="portfolio-single-gallery-full.html"><div>Slider Gallery</div></a></li>
+                    <li><a href="portfolio-single-video-fullwidth-left-sidebar.html"><div>HTML5 Video</div></a></li>
+                    <li><a href="portfolio-single-thumbs-right-sidebar.html"><div>Masonry Thumbs</div></a></li>
+                    <li><a href="portfolio-single-video-both-sidebar.html"><div>Embed Video</div></a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="mega-menu-column col-5">
+                <li class="mega-menu-title"><a href="#"><div>Layouts</div></a>
+                  <ul>
+                    <li><a href="portfolio-nomargin.html"><div>Default</div></a></li>
+                    <li><a href="portfolio-1-alt-right-sidebar.html"><div>Right Sidebar</div></a></li>
+                    <li><a href="portfolio-3-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                    <li><a href="portfolio-2-both-sidebar.html"><div>Both Sidebar</div></a></li>
+                    <li><a href="portfolio-fullwidth-notitle.html"><div>100% Width</div></a></li>
+                    <li><a href="portfolio-parallax.html"><div>Parallax</div></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <!-- Top Search  ============================================= -->
+        <div id="top-search">
+          <a href="#" id="top-search-trigger"><i class="ion-ios-search" style="font-size: 24px;"></i><i class="icon-line-cross"></i></a>
+          <form action="search.html" method="get">
+            <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+          </form>
+        </div>
+        <!-- #top-search end -->
+
+      </nav>
+      <!-- #primary-menu end -->
+
     </div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
-      <ul class="nav navbar-nav">
-        <li class="active"><a ng-href="#">Home</a></li>
-        <li><a ng-href="#">About</a></li>
-        <li><a ng-href="#">Contact</a></li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right acme-navbar-text">
-        <li>Application was created {{ vm.relativeDate }}.</li>
-      </ul>
-    </div>
   </div>
-</nav>
+
+</header><!-- #header end -->

@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($timeout, webDevTec, toastr) {
+  function MainController($timeout, webDevTec, toastr, $state) {
     var vm = this;
 
     vm.awesomeThings = [];
@@ -15,7 +15,6 @@
     vm.showToastr = showToastr;
 
     activate();
-
     function activate() {
       getWebDevTec();
       $timeout(function() {

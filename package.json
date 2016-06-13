@@ -1,7 +1,9 @@
 {
   "name": "claim-advisor",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "ionicons": "^3.0.0"
+  },
   "scripts": {
     "test": "gulp test"
   },
