@@ -20,7 +20,7 @@ padding:0!important;
 
 .claim-hero-title {
   position: absolute;
-  top: 90px;
+  top: 112px;
   z-index: 2;
   left: 0;
   right: 0;
@@ -38,4 +38,9 @@ padding:0!important;
 }
 .tc {
   text-align:center;
+}
+
+.quote-square {
+  border: 1px solid #999;
+  padding: 25px;
 }
