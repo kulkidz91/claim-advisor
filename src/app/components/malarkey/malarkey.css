@@ -1,12 +1,12 @@
 .acme-malarkey {
   text-transform: lowercase;
-  color: #000;
+  color: #69BE28;
 }
 /*color: #1ABC9C;*/
 .acme-malarkey:after {
   animation: cursor-blink 0.4s linear infinite;
   content: "|";
-  color: #000;
+  color: #69BE28;
 }
 
 @keyframes cursor-blink {
