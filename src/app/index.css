@@ -5,6 +5,130 @@ html, body{
      -webkit-font-smoothing: antialiased;
 
 }
+/* ----------------------------------------------------------------------------
+  Buttons
+---------------------------------------------------------------------------- */
+
+.button.button-border {
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.button.button-border.button-large {
+  font-size: 15px;
+}
+
+.button.button-border.button-light {
+  border-color: #F9F9F9;
+  color: #F9F9F9;
+}
+
+.button.button-border.button-light:hover {
+  background-color: #F9F9F9;
+  color: #333;
+  text-shadow: none;
+}
+
+.button.button-circle { border-radius: 20px; }
+
+.button.button-large.button-circle { border-radius: 23px; }
+
+
+
+.button.button-padded { padding: 0 50px; }
+
+.button.button-padded i:last-child {
+  position: absolute;
+  line-height: 38px;
+  left: auto;
+  right: 20px;
+  font-size: 20px;
+}
+
+.button.button-border.button-fill { overflow: hidden; }
+
+.button.button-border.button-fill:hover {
+  background-color: transparent !important;
+  border-color: #444 !important;
+}
+
+.button.button-border.button-fill.button-light:hover { border-color: #F9F9F9 !important; }
+
+.button.button-border.button-fill:before {
+  content: '';
+  position: absolute;
+  background-color: #444;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-backface-visibility: hidden;
+}
+
+.button.button-border.button-fill.button-light:before { background-color: #FFF; }
+
+.button.button-border.button-fill.fill-from-right:before {
+  left: auto;
+  right: 0;
+}
+
+.button.button-border.button-fill:hover:before { width: 100%; }
+
+.button.button-border.button-fill.fill-zoom:before {
+  width: 100%;
+  -webkit-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+}
+
+.button.button-border.button-fill.fill-zoom:hover:before {
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+
+.button.button-border.button-fill.fill-from-top:before {
+  width: 100%;
+  height: 0;
+}
+
+.button.button-border.button-fill.fill-from-top:hover:before { height: 100%; }
+
+
+.button.button-border.button-fill.fill-from-bottom:before {
+  width: 100%;
+  height: 0;
+  top: auto;
+  bottom: 0;
+}
+
+.button.button-border.button-fill.fill-from-bottom:hover:before { height: 100%; }
+
+
+.button.button-border.button-fill i:last-child {
+  opacity: 0;
+  right: 30px;
+  -webkit-transform: scale(0.2);
+  -o-transform: scale(0.2);
+  transform: scale(0.2);
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.button.button-border.button-fill:hover i:last-child {
+  opacity: 1;
+  right: 20px;
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;

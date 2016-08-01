@@ -6407,23 +6407,14 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 
 
 .button {
-	display: inline-block;
-	position: relative;
-	cursor: pointer;
-	outline: none;
-	white-space: nowrap;
-	margin: 5px;
-	padding: 0 22px;
-	font-size: 14px;
-	height: 40px;
-	line-height: 40px;
-	background-color: #1ABC9C;
-	color: #FFF;
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	border: none;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 body:not(.device-touch) .button {
